@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#seletor-id{
+    color: #000;
+    background-color: #00f;
+    padding: 10px; 
+    width: 150px; 
+    height: 100px; 
+    text-align: center;
+    box-sizing: border-box;
+    outline: 5px solid yellow;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.borda{
+    border: solid 5px;
+    border-color: #ff0000;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
