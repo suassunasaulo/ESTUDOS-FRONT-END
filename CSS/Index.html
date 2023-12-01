@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>flexbox</title>
+</head>
+
+<body>
+    <h1>Usando flexbox pra centralizar</h1>
+    <P> Aqui foi usado a seguinte estrutura: No elemento pai, foram utilizadas as regras:</P>
+    <ul>
+        <li>display: flex;</li>
+        <li>flex-direction:column;</li>
+        <li>justify-content: center;</li>
+        <li>align-items: center;</li>
+        <li>justify-content: space-around;</li>
+        <li>margin: 0 auto;// Utilizado para centralizar o pai verticalmente</li>
+    </ul>
+    <p>Utilizando essas regras, os elementos filhos (as 3 caixas) ficaram centralizados em forma de coluna horizontalmente e verticalmente e ficaram com espaços iguais distribuidos</p>
+
+
+    <div class="container-pai-column borda">
+        <div class="filho-1 borda">
+
+        </div>
+        <div class="filho-2 borda">
+
+        </div>
+        <div class="filho-3 borda">
+
+        </div>
+
+    </div>
+
+    <P> Aqui foi usado a seguinte estrutura: No elemento pai, foram utilizadas as regras:</P>
+    <ul>
+        <li>display: flex;</li>
+        <li>flex-direction:row;</li>
+        <li>justify-content: center;</li>
+        <li>align-items: center;</li>
+        <li>justify-content: space-around;</li>
+        <li>margin: 0 auto;// Utilizado para centralizar o pai verticalmente</li>
+    </ul>
+    <p>Utilizando essas regras, os elementos filhos (as 3 caixas) ficaram centralizados em forma de linha horizontalmente e verticalmente e ficaram com espaços iguais distribuidos</p>
+
+
+    <div class="container-pai-row borda">
+        <div class="filho-1 borda">
+
+        </div>
+        <div class="filho-2 borda">
+
+        </div>
+        <div class="filho-3 borda">
+
+        </div>
+
+    </div>
+<h2>Usando flex wrap</h2>
+    <div class="container-pai-wrap borda">
+        <div class="filho-1 borda">
+
+        </div>
+        <div class="filho-2 borda">
+
+        </div>
+        <div class="filho-3 borda">
+
+        </div>
+        <div class="filho-4 borda">
+
+        </div>
+
+        <div class="filho-5 borda">
+
+        </div>
+        <div class="filho-6 borda">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
